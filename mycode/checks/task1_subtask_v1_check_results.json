@@ -1,0 +1,75 @@
+{
+  "A": {
+    "valid_episodes": 237,
+    "invalid_episodes": 0,
+    "valid_box_cycles": 474,
+    "invalid_cycles": 0,
+    "valid_operation_frames": 196964,
+    "terminal_idle_frames": 21246,
+    "post_place_variation_frames": 6577,
+    "total_source_episodes": 237
+  },
+  "B": {
+    "n": 184
+  },
+  "C": {
+    "n_timelines": 3
+  },
+  "D": {
+    "anchors_checked": 137308,
+    "violations": 0
+  },
+  "E": {
+    "pair_pct": {
+      "1-2": 11.72,
+      "11-12": 10.9,
+      "13-14": 10.73,
+      "15-16": 11.14,
+      "17-18": 11.01,
+      "3-4": 10.79,
+      "5-6": 11.15,
+      "7-8": 11.55,
+      "9-10": 11.01
+    },
+    "world_size_sim": 8
+  },
+  "F": {
+    "tokenizer_max_length": 200,
+    "num_prompts": 50,
+    "mean_token_length": 179.36,
+    "max_token_length": 183,
+    "truncated_prompts": 0,
+    "semantic_truncations": 0,
+    "worst_case_preview": "Pack medicine boxes 17 and 18 into the carton.\nCurrent box: 17 of 18.\nCurrent subtask: Place the current box directly into its target carton position with the l"
+  },
+  "G": {
+    "index": 0,
+    "pair": "1-2",
+    "same_state": true,
+    "same_action": true,
+    "same_images": true,
+    "task_subtask": "Pack medicine boxes 1 and 2 into the carton.\nCurrent box: 1 of 18.\nCurrent subtask: Approach and pick up the current box with the left suction cup.",
+    "task_baseline": "Pack medicine boxes 1 and 2 into the carton.",
+    "tasks_differ": true
+  },
+  "I": {
+    "status": "SKIPPED",
+    "reason": "GPU busy or skip_gpu"
+  },
+  "H": {
+    "pi05_base": {
+      "load_via_make_policy": "success",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "forbidden_new_keys": [],
+      "n_params": 4143404816
+    },
+    "pre_0808": {
+      "load_via_make_policy": "success",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "forbidden_new_keys": [],
+      "n_params": 4143404816
+    }
+  }
+}
